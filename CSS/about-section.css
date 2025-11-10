@@ -1,0 +1,46 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding:64px;
+  background-color:var(--secondary-color);
+  color:var(--text-100);
+  margin-bottom:128px;
+}
+.about-section-content{
+  display:grid;
+  grid-template-columns:582px 582px;
+  grid-template-rows:586px;
+  align-items: center;
+  justify-content: center;
+  column-gap:24px;
+}
+.about-section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.about-section-text p{
+  color: var(--text-75);
+}
+.about-profile-photo {
+  background-color: black;
+  border-radius:381px;
+  border-style:solid;
+  border-color:var(--primary-color);
+  border-width:8px;
+}
+.technologies {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 40px;
+}
+.technologies-icon {
+  display: flex;
+  gap: 64px;
+  height: 64px;
+}
+

@@ -1,0 +1,55 @@
+.service-section {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  height:812px;
+  gap:72px;
+  padding:48px 0px;
+  background-color: var(--background-color);
+  color:var(--text-100);
+  margin-bottom: 128px;
+}
+.service-section p {
+  color:var(--text-75);
+}
+.service-card-section{
+  display:grid;
+  grid-template-columns: 381px 381px 381px;
+  grid-template-rows: 560px;
+  gap:40px;
+  justify-content: center;
+}
+.service-text{
+  display: flex;
+  flex-direction: column;
+  gap:48px;
+}
+.service-card-1,.service-card-2,.service-card-3 {
+  background-color:var(--secondary-color);
+  padding:16px;
+  border-radius: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:160px;
+  border-style: solid;
+  border-color: var(--accent-color);
+  border-width: 5px;
+  padding:16px;
+}
+.service-card-1 {
+  gap:176px;
+}
+.service-card-2 {
+  gap:138px;
+}
+.service-card-3{
+  gap:137px;
+}
+.service-card-1 button,.service-card-2 button,.service-card-3 button{
+  width:248px;
+  height:59px;
+  gap:10px;
+}

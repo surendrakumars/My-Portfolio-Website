@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url(Fonts/Satoshi-Variable.ttf);
+}
+@font-face {
+  font-family:'Archivo';
+  src: url(Fonts/Archivo-Variable.ttf);
+}
+
+h1 {
+  font-family:'Satoshi-Variable',sans-serif;
+  font-size:46.78px;
+  letter-spacing:-2px;
+}
+h2 {
+  font-family:'Satoshi-Variable',sans-serif;
+  font-size:39.81px;
+  letter-spacing:-1.5px;
+}
+h3 {
+  font-family:'Satoshi-Variable' ,sans-serif;
+  font-size:33.18px;
+}
+h4 {
+  font-family:'Satoshi-Variable' ,sans-serif;
+  font-size:27.65px;
+}
+h5 {
+  font-family:'Satoshi-Variable',sans-serif;
+  font-size:23.04px;
+}
+h6 {
+  font-family:'Satoshi-Variable',sans-serif;
+  font-size:19.2px;
+}
+p {
+  font-family:'Archivo-Variable',sans-serif;
+  font-size:16px;
+  line-height:38.7px;
+  
+}
+a {
+  font-family:'Archivo-Variable',sans-serif;
+  font-size:16px;
+  line-height:38.7px;
+}

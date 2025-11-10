@@ -1,0 +1,27 @@
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  gap:176px;
+  justify-content: center;
+  align-items: center;
+  height: 523px;
+  background-color:var(--secondary-color);
+  color: var(--primary-color);
+}
+.footer-section svg{
+  color:var(--accent-color);
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+.links {
+  display: flex;
+  gap:32px;
+}
+.links svg.bi{
+  width:32px;
+  height:32px;
+}

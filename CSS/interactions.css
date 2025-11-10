@@ -1,0 +1,47 @@
+.contact-button:hover {
+  box-shadow: 2px 2px 8px 8px rgba(255, 72, 72, 0.7);
+  background-color: rgba(0, 37, 116, 0.8);
+  color: var(--primary-color);
+  border-width: 1px;
+  transition: 0.5s;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.contact-button:active {
+  opacity:75%;
+  z-index: 3;
+  box-shadow: none;
+  transition: 1;
+}
+
+.contact-section button:hover{
+  transform: scale(1.1);
+  color: white;
+  box-shadow: none;
+  transition:0.5s;
+}
+.contact-section button:active{
+  opacity: 75%;
+  transition:1;
+}
+.technologies-icon img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(3px 3px 8px rgba(0,0,0, 0.7));
+  cursor:pointer;
+  transition: 0.5s;
+}
+.technologies-icon img:active{
+  opacity: 75%;
+  transition:1;
+  filter: none;
+}
+.navigation a:hover{
+  color:var(--primary-color);
+  cursor: pointer;
+  transition:0.5s;
+}
+.navigation a:active{
+  opacity: 75%;
+  transition:1;
+}

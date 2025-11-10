@@ -1,0 +1,28 @@
+.contact-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images//contact-section.jpg");
+  height:582px;
+  background-size: cover;   
+  background-position: center;
+  filter:background-image filter(5px);
+  background-color: var(--background-color);
+  margin-bottom: 128px;
+}
+.contact-section-text{
+  display: flex;
+  flex-direction: column;
+  gap:43px;
+  align-items: center;
+  color:var(--text-100);
+}
+.contact-section-text p{
+  color:var(--text-75);
+}
+.contact-section button{
+  background-color:var(--secondary-color);
+  border-style: solid;
+  border-color: var(--text-100);
+  border-width: 1px;
+}
